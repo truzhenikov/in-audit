@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float side, volume;
+
+    cout << "Enter the length of a side of the cube: ";
+    cin >> side;
+
+    volume = side * side * side;
+
+    cout << "The volume of the cube is: " << volume << endl;
+
+    return 0;
+}
